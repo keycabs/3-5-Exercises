@@ -7,16 +7,15 @@ public class Input01 {
         String input = JOptionPane.showInputDialog("Enter query:");
         System.out.println(input);
         
-        
         //Parse the input as an int.
         //Print its value +1
         int number = Integer.parseInt(input);
         System.out.println(number + 1);
         
-        
         //Try creating a dialog, parsing it, and initializing an int in a single line.
         //You should have only one semicolon (;) in this line.
-
+        int number2 = Integer.parseInt(JOptionPane.showInputDialog("Enter another number:"));
+        System.out.println(number2);
         
     }
 }
